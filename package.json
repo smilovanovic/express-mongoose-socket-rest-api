@@ -1,0 +1,53 @@
+{
+	"name": "express-mongoose-socket-rest-api",
+	"version": "0.0.1",
+	"description": "Starter project for RESTful Express API with socket io",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"author": "Stefan Milovanovic <dazmaj@hotmail.com> (https://github.com/smilovanovic/)",
+	"bugs": {
+		"url" : "https://github.com/smilovanovic/express-mongoose-socket-rest-api/issues",
+		"email" : "dazmaj@hotmail.com"
+	},
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/smilovanovic/express-mongoose-socket-rest-api.git"
+	},
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"express",
+		"node",
+		"node.js",
+		"mongodb",
+		"mongoose",
+		"socket",
+		"socket.io",
+		"REST",
+		"API",
+		"jwt",
+		"boilerplate",
+		"starter"
+	],
+	"dependencies": {
+		"body-parser": "~1.0.0",
+		"btoa": "latest",
+		"compression": "latest",
+		"cookie-parser": "~1.0.1",
+		"cors": "latest",
+		"debug": "~0.7.4",
+		"ejs": "^2.3.1",
+		"express": "latest",
+		"jsonwebtoken": "^5.0.0",
+		"moment": "latest",
+		"mongodb": "latest",
+		"mongoose": "latest",
+		"morgan": "~1.0.0",
+		"nodemailer": "^1.3.4",
+		"q": "latest",
+		"sha1": "latest",
+		"socket.io": "latest",
+		"underscore": "^1.8.3"
+	}
+}
