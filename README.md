@@ -10,7 +10,7 @@ Edit config.js to setup your database connection, email smtp, ports and salt use
 ```sh
 # clone it
 git clone https://github.com/smilovanovic/express-mongoose-socket-rest-api.git
-cd express-es6-rest-api
+cd express-mongoose-socket-rest-api
 
 # Make it your own
 rm -rf .git && git init && npm init
@@ -18,11 +18,8 @@ rm -rf .git && git init && npm init
 # Install dependencies
 npm install
 
-# Start development live-reload server
-PORT=8080 npm run dev
-
-# Start production server:
-PORT=8080 npm start
+# Start server using nodemon
+npm start
 ```
 
 
