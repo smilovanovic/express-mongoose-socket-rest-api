@@ -1,4 +1,5 @@
 'use strict';
+var fs = require('fs');
 
 module.exports = {
     db: {
@@ -25,5 +26,10 @@ module.exports = {
     },
     _SALT: "",
     port: 3001,
-    https_port: 50511
+    https_port: undefined,
+    https_options: {
+        key: fs.readFileSync(''), // example /etc/apache2/ssl/private.key
+        cert: fs.readFileSync(''), // example /etc/apache2/ssl/public.crt
+        passphrase: ''
+    }
 };

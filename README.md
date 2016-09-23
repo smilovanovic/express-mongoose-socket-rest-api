@@ -13,7 +13,7 @@ git clone https://github.com/smilovanovic/express-mongoose-socket-rest-api.git
 cd express-mongoose-socket-rest-api
 
 # Make it your own
-rm -rf .git && git init && npm init
+rm -rf .git && git init
 
 # Install dependencies
 npm install
