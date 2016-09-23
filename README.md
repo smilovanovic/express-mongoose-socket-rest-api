@@ -18,6 +18,8 @@ rm -rf .git && git init
 # Install dependencies
 npm install
 
+Configure your app settings in config.js
+
 # Start server using nodemon
 npm start
 ```
